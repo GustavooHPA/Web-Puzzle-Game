@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    color: rgb(4, 4, 4);
+    position: absolute;
+    top: 35rem;
+    left: 0rem;
+}
+
+input {
+    width: 30rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button {
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+
+    opacity: 0;
+}
+
+button#button {
+    position: absolute;
+    right: 51rem;
+    width: 7rem;
+    height: 2rem;
+    opacity: 0;
+}
