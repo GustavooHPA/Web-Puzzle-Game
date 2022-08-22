@@ -11,7 +11,7 @@ var dooropen = 0
 
 function Carpet() {
     imagem.style.position = "absolute"
-    imagem.style.left = "48rem"
+    imagem.style.left = "35%"
     key0.style.opacity = "100"
 }
 
